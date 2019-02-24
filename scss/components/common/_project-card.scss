@@ -1,0 +1,90 @@
+.project-card{
+	padding: 25px 25px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	height: 100%;
+	position: relative;
+
+	.card-image{
+		flex: none;
+		margin-bottom: 25px;
+		transition: all $t;
+
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.card-caption{
+		flex: auto;
+
+		a{
+			font-size: 24px;
+			line-height: 1.25;
+			color: $text-color;
+			text-decoration: underline;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+
+			&:hover{
+				color: $primary;
+			}
+		}
+	}
+
+	.card-footer{
+		display: flex;
+		flex: none;
+		align-items: center;
+		padding-top: 23px;
+		flex-wrap: wrap;
+		margin-bottom: -10px;
+	}
+
+	&:hover{
+		.card-image{
+			opacity: .8;
+		}
+	}
+
+	.project-program{
+		font-size: 11px;
+		line-height: 18px;
+		background: $accent;
+		padding: 0 8px;
+		color: #fff;
+		font-family: 'Lora';
+		margin-right: 10px;
+		white-space: nowrap;
+		margin-bottom: 10px;
+	}
+
+	.date{
+		font-size: 11px;
+		line-height: 18px;
+		color: $text-color;
+		font-family: 'Lora';
+		margin-bottom: 10px;
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 15px;
+
+		.card-caption{
+			a{
+				font-size: 18px;
+			}
+		}
+	}
+}

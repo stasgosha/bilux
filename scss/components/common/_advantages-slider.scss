@@ -1,0 +1,120 @@
+.advantages-slider{
+	transform: translateY(-100px);
+	margin-bottom: -100px !important;
+
+	.slide{
+		outline: none !important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: #fff;
+		overflow: hidden;
+
+		.slide-image{
+			height: 220px;
+			display: flex;
+			align-items: flex-end;
+		}
+
+		.slide-caption{
+			height: 60px;
+			width: 100%;
+			background: $primary;
+			text-align: center;
+			box-shadow: 0 5px 29px rgba(#ff2424, .33);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 50px;
+			position: relative;
+
+			.slide-number{
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 14px;
+				font-family: 'Lora';
+				background: #fff;
+				color: $text-color;
+				font-weight: bold;
+				position: absolute;
+				left: calc(50% - 15px);
+				top: -15px;
+			}
+
+			span{
+				color: #fff;
+				font-size: 24px;
+				line-height: 1;
+			}
+		}
+
+		.slide-text{
+			color: #f2f2f2;
+		}
+	}
+
+	.slick-arrow{
+		width: 15px;
+		height: 60px;
+		background: $primary;
+		top: 220px;
+		transform: none;
+		z-index: 5;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 15px;
+			height: 24px;
+			background: url(../img/icons/slider-arrows-white.png) no-repeat;
+			opacity: 1;
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: 0;
+			border-style: solid;
+		}
+
+		&.slick-prev{
+			left: 0;
+
+			&:before{
+				background-position: left center;
+			}
+
+			&:after{
+				right: 100%;
+				border-width: 30px 15px 30px 0;
+				border-color: transparent $primary transparent transparent;
+			}
+		}
+
+		&.slick-next{
+			right: 0;
+
+			&:before{
+				background-position: right center;
+			}
+
+			&:after{
+				border-width: 30px 0 30px 15px;
+				border-color: transparent transparent transparent $primary;
+				left: 100%;
+			}
+		}
+	}
+
+	.slick-dots{
+		bottom: auto !important;
+		top: 300px;
+	}
+}

@@ -1,0 +1,143 @@
+.footer{
+	background: #fff;
+	box-shadow: 0 -7px 20px rgba(#000, .03);
+
+	.footer-line{
+		padding: 25px 0;
+		border-bottom: 1px solid #dbdbdb;
+
+		&:last-child{
+			border-bottom: 0;
+		}
+
+		&.footer-top{
+			padding-top: 30px;
+		}
+	}
+
+	.footer-inner{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+
+		.footer-block{
+			padding: 0 15px;
+		}
+	}
+
+	.footer-contacts{
+		display: flex;
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+
+		li{
+			padding: 0 15px;
+			font-size: 14px;
+			line-height: 1.4;
+			width: 33.3333%;
+
+			a{
+				color: $text-color;
+				text-decoration: underline;
+
+				&:hover{
+					color: $primary;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.footer-top{
+			.footer-inner{
+				flex-direction: column;
+				align-items: center;
+				margin-bottom: -30px;
+
+				.footer-block{
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.footer-bottom{
+			.footer-inner{
+				flex-direction: column;
+				align-items: center;
+				margin-bottom: -30px;
+
+				.footer-block{
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		.footer-top{
+			.footer-inner{
+				align-items: flex-start;
+
+				.footer-block:first-child{
+					padding-bottom: 25px;
+					position: relative;
+					width: 100%;
+
+					&:after{
+						content: '';
+						display: block;
+						width: calc(100% - 30px);
+						height: 1px;
+						background: #dbdbdb;
+						position: absolute;
+						left: 15px;
+						bottom: 0;
+					}
+				}
+			}
+		}
+
+		.footer-bottom{
+			.footer-inner{
+				align-items: stretch;
+
+				.footer-block:last-child{
+					align-self: flex-end;
+				}
+			}
+		}
+
+		.footer-contacts{
+			flex-direction: column;
+
+			li{
+				margin-bottom: 25px;
+				width: 100%;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.webolution{
+	transition: all $t;
+
+	&:hover{
+		opacity: .8;
+	}
+
+	img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+}

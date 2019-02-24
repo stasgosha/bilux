@@ -1,0 +1,20 @@
+// Fonts
+$main-font: 'Georgia', Arial, sans-serif;
+$second-font: Arial, sans-serif;
+
+// Colors
+$dark: #212121;
+$orange: #ef4023;
+$olive: #bab06e;
+
+$text-olive: #9f9659;
+$text-color: $dark;
+
+$primary: $orange;
+$accent: $olive;
+
+// Params
+$body-bg: #f9f9f9; // site background
+$t: .3s; // animation duration
+$r: 5px; // default border radius
+$shadow: 0 5px 15px rgba(#000, .1); // default card shadow

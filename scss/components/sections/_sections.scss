@@ -1,0 +1,85 @@
+.first-screen-section{
+	padding-top: 60px;
+	background: url(../img/backgrounds/first-screen-bg.jpg) no-repeat center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: calc(100vh - 155px); // 100vh - header height
+
+	@media screen and (max-width: 575px){
+		.section-caption{
+			.sc-title{
+				font-size: 24px;
+				line-height: 32px;
+			}
+		}
+	}
+}
+
+.about-section{
+	.section-text{
+		.img-responsive{
+			margin-right: 30px;
+			margin-bottom: 30px;
+			float: left;
+
+			@media screen and (max-width: 767px){
+				width: 230px;
+				margin-right: 20px;
+				margin-bottom: 0;
+			}
+
+			@media screen and (max-width: 575px){
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 25px;
+			}
+		}
+	}
+}
+
+.page-404-section{
+	padding-bottom: 90px;
+	position: relative;
+
+	.page-404-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.image{
+			margin-bottom: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		p{
+			font-size: 20px;
+			line-height: 1.5;
+			color: $text-color;
+			text-align: center;
+			margin-bottom: 40px;
+
+			@media screen and (max-width: 575px){
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+.page-title-section{
+	padding-top: 15px;
+	padding-bottom: 25px;
+	background: url(../img/backgrounds/page-title-bg.jpg) no-repeat center bottom;
+	background-size: cover;
+
+	.breadcrumbs{
+		margin-bottom: 25px;
+	}
+}

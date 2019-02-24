@@ -1,0 +1,86 @@
+.dealers-section{
+	background: url(../img/backgrounds/gray-bg.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 75px 0 90px;
+
+	.section-inner{
+		display: flex;
+		justify-content: space-between;
+
+		.section-text{
+			max-width: 370px;
+			min-width: 260px;
+			flex: auto;
+
+			.section-caption{
+				margin-bottom: 60px;
+			}
+		}
+
+		.section-image{
+			margin: -40px 40px -65px 25px;
+			flex: none;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		.section-phone{
+			p{
+				padding-left: 50px;
+				margin-top: 15px;
+				color: #f2f2f2;
+			}
+		}
+
+		@media screen and (max-width: 1199px){
+			.section-image{
+				margin: -40px -20px -65px -75px;
+			}
+		}
+
+		@media screen and (max-width: 991px){
+			.section-image{
+				width: 350px;
+				margin: 50px -80px -85px -85px;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			.section-image{
+				width: 100%;
+				margin: 45px 0 55px;
+			}
+
+			.section-text{
+				.section-caption{
+					margin-bottom: 0;
+				}
+			}
+
+			.section-phone{
+				margin-bottom: 35px;
+				margin-left: 17px;
+			}
+
+			.btn{
+				max-width: 290px;
+			}
+		}
+
+		@media screen and (max-width: 575px){
+			.btn{
+				max-width: 100%;
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.section-inner{
+			flex-direction: column;
+		}
+	}
+}

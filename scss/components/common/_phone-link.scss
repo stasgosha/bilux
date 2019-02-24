@@ -1,0 +1,80 @@
+.phone-link{
+	display: inline-flex;
+	font-size: 22px;
+	line-height: 24px;
+	color: $text-color;
+	align-items: center;
+	font-family: 'Lora';
+
+	.link-icon{
+		margin-right: 13px;
+		flex: none;
+		display: block;
+
+		i{
+			display: block;
+		}
+	}
+
+	span{
+		white-space: nowrap;
+	}
+
+	&:hover{
+		color: $primary;
+	}
+
+	&.white{
+		color: #fff;
+
+		&:hover{
+			color: $primary;
+		}
+	}
+
+	&.orange-icon{
+		.link-icon{
+			position: relative;
+			z-index: 3;
+			margin-right: 33px;
+
+			&:before{
+				content: '';
+				display: block;
+				width: 32px;
+				height: 32px;
+				border-radius: 50%;
+				background: $primary;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				box-shadow: 0 5px 29px rgba(#ff2424, .26);
+				z-index: -1;
+			}
+
+			&:after{
+				content: '';
+				display: block;
+				width: 52px;
+				height: 52px;
+				border-radius: 50%;
+				border: 1px solid rgba(#fff, .07);
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				z-index: -1;
+			}
+
+			i{
+				position: relative;
+				z-index: 2;
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		font-size: 20px;
+	}
+}

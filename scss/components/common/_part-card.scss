@@ -1,0 +1,83 @@
+.part-card{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding: 25px 15px 20px;
+	height: 100%;
+
+	.card-image{
+		flex: auto;
+		margin-bottom: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+
+		.on-hover{
+			font-size: 14px;
+			line-height: 20px;
+			padding: 6px 15px;
+			border-radius: 16px;
+			background: $primary;
+			color: #fff;
+			font-weight: bold;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%) scale(0);
+			opacity: 0;
+			transition: all $t;
+			text-align: center;
+			white-space: nowrap;
+		}
+	}
+
+	.card-caption{
+		font-size: 18px;
+		line-height: 1.666;
+		text-align: center;
+		color: $text-color;
+
+		&:hover{
+			color: $primary;
+		}
+
+		&:before{
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+
+	&:hover{
+		.card-image{
+			.on-hover{
+				opacity: 1;
+				transform: translate(-50%, -50%) scale(1);
+			}
+		}
+	}
+
+	&.left-aligned{
+		.card-caption{
+			text-align: left;
+		}
+	}
+}
+
+.parts-list{
+	margin-top: 45px;
+}

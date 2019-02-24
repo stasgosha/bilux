@@ -1,0 +1,50 @@
+@import "components/fonts";
+@import "components/vars";
+@import "components/layout";
+@import "components/typography";
+@import "components/assist";
+@import "icons";
+
+// Header
+@import "components/header/header";
+@import "components/header/logo";
+@import "components/header/header-links-list";
+@import "components/header/top-nav";
+@import "components/header/menu-opener";
+
+// Sections
+@import "components/sections/sections";
+@import "components/sections/production-advantages-section";
+@import "components/sections/have-a-questions-section";
+@import "components/sections/dealers-section";
+@import "components/sections/where-buy-section";
+@import "components/sections/contacts-section";
+
+// Footer
+@import "components/footer/footer";
+@import "components/footer/footer-nav";
+
+// Common
+@import "components/common/buttons";
+@import "components/common/forms";
+@import "components/common/panel";
+@import "components/common/phone-link";
+@import "components/common/big-product-features";
+@import "components/common/category-card";
+@import "components/common/subpage-card";
+@import "components/common/on-tv-block";
+@import "components/common/where-buy-list";
+@import "components/common/news-card";
+@import "components/common/advantages-slider";
+@import "components/common/sliders";
+@import "components/common/breadcrumbs";
+@import "components/common/part-card";
+@import "components/common/subcategies-nav";
+@import "components/common/tables";
+@import "components/common/document-card";
+@import "components/common/params-list";
+@import "components/common/history-list";
+@import "components/common/dealer-logo-card";
+@import "components/common/project-card";
+@import "components/common/product-page";
+@import "components/common/calculate-component";

@@ -1,0 +1,109 @@
+.history-list{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.item{
+		max-width: 880px;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 40px;
+		margin-top: 75px;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		&:last-child{
+			padding-bottom: 0;
+		}
+
+		&:before{
+			content: '';
+			display: block;
+			width: 2px;
+			height: 45px;
+			background: #dfdfdf;
+			position: absolute;
+			left: calc(50% - 1px);
+			top: -75px;
+		}
+
+		.item-year{
+			font-family: 'Lora';
+			font-size: 60px;
+			line-height: 60px;
+			color: $primary;
+			text-align: center;
+			position: relative;
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 36px;
+				height: 2px;
+				position: absolute;
+				left: calc(50% - 18px);
+				bottom: 0;
+				background: $primary;
+			}
+		}
+
+		.item-text{
+			font-size: 18px;
+			line-height: 1.3333;
+			max-width: 760px;
+		}
+
+		&.now{
+			border: 3px solid $accent;
+			padding: 0 65px 40px;
+			margin-top: 100px;
+
+			&:before{
+				top: -100px;
+			}
+
+			.item-year{
+				font-size: 42px;
+				padding: 0 35px 20px;
+				background: $body-bg;
+				margin-top: -30px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.item{
+			padding-bottom: 20px;
+			margin-top: 50px;
+
+			&:before{
+				top: -55px;
+			}
+
+			.item-year{
+				font-size: 48px;
+				line-height: 50px;
+			}
+
+			&.now{
+				padding: 0 20px 30px;
+				margin-top: 70px;
+
+				&:before{
+					top: -75px;
+				}
+
+				.item-year{
+					font-size: 30px;
+					padding-left: 30px;
+					padding-right: 30px;
+					margin-top: -25px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+.have-a-questions-section{
+	background: url(../img/backgrounds/gray-bg.jpg) no-repeat center center;
+	background-size: cover;
+
+	.section-inner{
+		display: flex;
+		justify-content: space-between;
+
+		.section-text{
+			max-width: 400px;
+			flex: auto;
+			margin-right: 95px;
+			color: #f2f2f2;
+
+			p{
+				margin-bottom: 50px;
+			}
+		}
+
+		.section-image{
+			margin: -95px -20px -175px -75px;
+			flex: none;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		@media screen and (max-width: 1199px){
+			.section-image{
+				margin: -95px -90px -175px -75px;
+			}
+		}
+
+		@media screen and (max-width: 991px){
+			.section-text{
+				min-width: 260px;
+				margin-right: 25px;
+			}
+
+			.section-image{
+				width: 440px;
+				margin: -35px -260px -175px -75px;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			.section-image,
+			.section-phone{
+				display: none;
+			}
+
+			.section-text{
+				margin-right: 0;
+
+				p{
+					margin-bottom: 0;
+				}
+			}
+
+			.mobile-content{
+				margin-bottom: 30px;
+			}
+
+			.phone-link{
+				margin-left: 17px;
+			}
+
+			.mobile-image{
+				margin-bottom: 50px;
+			}
+		}
+	}
+}

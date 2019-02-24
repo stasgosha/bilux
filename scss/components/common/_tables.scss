@@ -1,0 +1,36 @@
+.table{
+	border-spacing: 0;
+	border-collapse: separate;
+	width: 100%;
+	color: $text-color;
+
+	tr{
+		transition: all $t;
+
+		&:hover{
+			background: #ededed;
+		}
+	}
+
+	th{
+		padding: 10px 5px;
+		height: 60px;
+		font-size: 14px;
+		line-height: 18px;
+		color: #fff;
+		text-align: center;
+		vertical-align: middle;
+		background: $accent;
+		border-right: 1px solid rgba(#fff, .42);
+	}
+
+	td{
+		height: 60px;
+		vertical-align: middle;
+		padding: 10px 5px;
+		border-bottom: 1px solid #dfdfdf;
+		font-size: 18px;
+		line-height: 1.444;
+		text-align: center;
+	}
+}

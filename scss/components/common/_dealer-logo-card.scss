@@ -1,0 +1,17 @@
+.dealer-logo-card{
+	padding: 20px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+
+	img{
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 15px;
+	}
+}

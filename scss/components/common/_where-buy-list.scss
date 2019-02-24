@@ -1,0 +1,75 @@
+.where-buy-list{
+	> .item{
+		padding: 25px 30px 25px 20px;
+		display: flex;
+		align-items: flex-start;
+		position: relative;
+
+		&:after{
+			content: '';
+			display: block;
+			width: calc(100% - 30px - 20px);
+			height: 1px;
+			position: absolute;
+			left: 20px;
+			bottom: 0;
+			background: #eaeaea;
+		}
+
+		&:last-child{
+			&:after{
+				display: none;
+			}
+		}
+
+		.item-number{
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			background: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: $shadow;
+			flex: none;
+			margin-right: 15px;
+			color: $primary;
+			font-size: 14px;
+			line-height: 30px;
+			font-family: 'Lora';
+			font-weight: bold;
+		}
+
+		.item-content{
+			flex: auto;
+
+			.item-name{
+				font-size: 18px;
+				line-height: 30px;
+				text-decoration: underline;
+				color: $text-color;
+				margin-bottom: 10px;
+				cursor: pointer;
+				transition: all $t;
+
+				&:hover{
+					color: $primary;
+				}
+			}
+
+			p{
+				font-size: 16px;
+				line-height: 1.5;
+
+				a{
+					color: $text-color;
+					text-decoration: none;
+
+					&:hover{
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+}

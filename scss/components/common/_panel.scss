@@ -1,0 +1,74 @@
+// Panel
+.panel{
+	overflow: hidden;
+	height: 100vh;
+	background: #fff;
+	position: relative;
+	z-index: 1000;
+
+	&[style*='left: 0px;']{
+		box-shadow: $shadow;
+	}
+
+	.panel-inner{
+		padding: 35px 15px 25px;
+		height: 100vh;
+		overflow-y: auto;
+		overflow-x: hidden !important;
+	}
+
+	.panel-close{
+		width: 32px;
+		height: 32px;
+		background: url(../img/icons/close.png) no-repeat center center;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.panel-nav{
+		list-style: none;
+		width: 100%;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #dcdcdc;
+
+		li{
+			margin-bottom: 18px;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+
+			a{
+				font-size: 22px;
+				line-height: 1.3636;
+				color: $text-color;
+				text-decoration: none;
+
+				&:hover{
+					color: $primary;
+				}
+			}
+
+			&.current-menu-item,
+			&.current-menu-parent{
+				a{
+					color: $primary;
+				}
+			}
+			
+			&.current-menu-item{
+				a{
+					cursor: default;
+				}
+			}
+		}
+	}
+
+	.panel-content{}
+
+	.header-links-list{
+		margin-bottom: 30px;
+	}
+}
