@@ -8,7 +8,7 @@
 					<li><?= $page_title ?></li>
 				</ul>
 				<div class="section-caption">
-					<h1 class="sc-title">Каталог продукции</h1>
+					<h1 class="sc-title d-block">Каталог продукции</h1>
 				</div>
 				<div class="subcategies-nav-wrapper mCustomScrollbar" data-mcs-theme="minimal" data-mcs-axis="x">
 					<ul class="subcategies-nav">
@@ -32,7 +32,7 @@
 						<div class="item">
 							<div class="part-card left-aligned white-card">
 								<div class="card-image">
-									<img src="img/parts/part-1.png" alt="">
+									<img src="img/tmp/r200.jpg" alt="">
 								</div>
 								<a href="#" class="card-caption">Биметаллический радиатор Bilux plus R 200</a>
 							</div>
@@ -40,7 +40,7 @@
 						<div class="item">
 							<div class="part-card left-aligned white-card">
 								<div class="card-image">
-									<img src="img/parts/part-1.png" alt="">
+									<img src="img/tmp/r300.jpg" alt="">
 								</div>
 								<a href="#" class="card-caption">Биметаллический радиатор Bilux plus R 300</a>
 							</div>
@@ -48,17 +48,17 @@
 						<div class="item">
 							<div class="part-card left-aligned white-card">
 								<div class="card-image">
-									<img src="img/parts/part-3.png" alt="">
+									<img src="img/tmp/r500.jpg" alt="">
 								</div>
-								<a href="#" class="card-caption">Переходник D42 1x1/2” белый левый (под силикон)</a>
+								<a href="#" class="card-caption">Биметаллический радиатор Bilux plus R 500</a>
 							</div>
 						</div>
 						<div class="item">
 							<div class="part-card left-aligned white-card">
 								<div class="card-image">
-									<img src="img/parts/part-4.png" alt="">
+									<img src="img/tmp/parts.jpg" alt="">
 								</div>
-								<a href="#" class="card-caption">Переходник D42 1x1/2” белый левый (под силикон)</a>
+								<a href="#" class="card-caption">Комплектующие для радиаторов Bilux</a>
 							</div>
 						</div>
 					</div>

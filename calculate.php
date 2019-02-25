@@ -8,7 +8,7 @@
 					<li><?= $page_title ?></li>
 				</ul>
 				<div class="section-caption">
-					<h1 class="sc-title">Калькулятор <span class="d-none d-md-inline"> расчета секций радиатора отопления</span></h1>
+					<h1 class="sc-title d-block">Калькулятор <span class="d-none d-md-inline"> расчета секций радиатора отопления</span></h1>
 				</div>
 			</div>
 		</div>

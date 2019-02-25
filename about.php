@@ -8,7 +8,7 @@
 					<li><?= $page_title ?></li>
 				</ul>
 				<div class="section-caption">
-					<h1 class="sc-title">BiLUX</h1>
+					<h1 class="sc-title d-block">BiLUX</h1>
 				</div>
 				<div class="subcategies-nav-wrapper mCustomScrollbar" data-mcs-theme="minimal" data-mcs-axis="x">
 					<ul class="subcategies-nav">

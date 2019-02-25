@@ -119,8 +119,10 @@
 
 .production-advantages-tabs{
 	.tab{
-		display: flex;
-		align-items: center;
+		.tab-inner{
+			display: flex;
+			align-items: center;
+		}
 
 		.tab-text{
 			padding: 15px 0;

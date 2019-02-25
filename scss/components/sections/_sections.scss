@@ -3,7 +3,7 @@
 	background: url(../img/backgrounds/first-screen-bg.jpg) no-repeat center bottom;
 	background-size: cover;
 	background-attachment: fixed;
-	min-height: calc(100vh - 155px); // 100vh - header height
+	min-height: calc(100% - 155px); // 100vh - header height
 
 	@media screen and (max-width: 575px){
 		.section-caption{

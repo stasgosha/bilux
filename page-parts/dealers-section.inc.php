@@ -8,7 +8,8 @@
 				<button class="btn d-none d-md-inline-flex">Отправить заявку</button>
 			</div>
 			<div class="section-image">
-				<img src="img/dealers-image.png" alt="">
+				<img src="img/dealers-image.png" alt="" class="d-none d-sm-block">
+				<img src="img/dealers-image-mobile.png" alt="" class="d-md-none">
 			</div>
 			<div class="section-phone">
 				<a href="tel:+74993909961" class="phone-link white orange-icon">

@@ -8,7 +8,7 @@
 					<li><?= $page_title ?></li>
 				</ul>
 				<div class="section-caption">
-					<h1 class="sc-title">Где купить?</h1>
+					<h1 class="sc-title d-block">Где купить?</h1>
 				</div>
 				<div class="items-list where-buy-select-fields reset-margin">
 					<div class="item xs-fullwidth">

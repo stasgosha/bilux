@@ -8,7 +8,7 @@
 					<li><?= $page_title ?></li>
 				</ul>
 				<div class="section-caption">
-					<h1 class="sc-title">Комплектующие</h1>
+					<h1 class="sc-title d-block">Комплектующие</h1>
 				</div>
 			</div>
 		</div>

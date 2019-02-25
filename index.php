@@ -69,7 +69,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="categories-section">
+		<section class="categories-section section-default-bottom-padding">
 			<div class="container">
 				<div class="cards-list columns-2 xs-columns-1">
 					<div class="item">
@@ -93,7 +93,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="subpages-section section-default-paddings d-none d-lg-block">
+		<!-- OLD LAYOUT -->
+		<!-- <section class="subpages-section section-default-paddings d-none d-lg-block">
 			<div class="container">
 				<div class="cards-list columns-3">
 					<div class="item">
@@ -138,7 +139,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<?php include('page-parts/product-advantages.inc.php') ?>
 		<section class="subpages-section-mobile section-default-top-padding">
 			<div class="container">
@@ -150,7 +151,7 @@
 							</div>
 							<div class="card-content">
 								<h4 class="card-caption">
-									<a href="#">Сертификат соответствия</a>
+									<a href="#">Сертификат <br>соответствия</a>
 								</h4>
 							</div>
 						</div>
@@ -162,7 +163,7 @@
 							</div>
 							<div class="card-content">
 								<h4 class="card-caption">
-									<a href="#">Страховая программа</a>
+									<a href="#">Страховая <br>программа</a>
 								</h4>
 							</div>
 						</div>
@@ -174,7 +175,7 @@
 							</div>
 							<div class="card-content">
 								<h4 class="card-caption">
-									<a href="#">Онлайн-калькулятор</a>
+									<a href="#">Онлайн <br>калькулятор</a>
 								</h4>
 							</div>
 						</div>
