@@ -195,12 +195,27 @@ body .tpg-h4{
 			&:before{
 				content: '';
 				display: block;
+				width: 18px;
+				height: 18px;
+				border-radius: 50%;
+				background: url(../img/icons/circle-dot.png) no-repeat center center;
+				position: absolute;
+				left: 4px;
+				top: 14px;
+
+				animation: dot-animation 2s infinite linear;
+			}
+
+			&:after{
+				content: '';
+				display: block;
 				width: 24px;
 				height: 24px;
-				background: url(../img/icons/circle-dot.png) no-repeat center center;
+				border-radius: 50%;
 				position: absolute;
 				left: 0;
 				top: 10px;
+				border: 1px solid #e0e0e0;
 			}
 		}
 	}

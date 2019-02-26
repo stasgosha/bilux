@@ -129,6 +129,7 @@
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
 	<script defer src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script defer src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script defer src="js/bootstrap.bundle.min.js"></script>
 	<script defer src="js/bigSlide.min.js"></script>
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>

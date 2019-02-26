@@ -124,6 +124,11 @@
 							</div>
 						</div>
 					</div>
+					<!-- Если дополнительного текста нет - выводить .additional-info не нужно, иначе будет некорректный отступ -->
+					<div class="additional-info tpg-typography">
+						<p>Дополнительный текст под фото</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere velit, quasi praesentium iste laborum nihil quisquam, minus voluptate expedita modi iure fugiat iusto culpa et pariatur molestias illo, dolorem eveniet beatae fugit enim. Unde sequi alias voluptatem, itaque libero nihil quas, fugiat et, eius consequuntur impedit quis? Quaerat esse hic asperiores fugiat, voluptate recusandae alias in ex inventore sunt, repellendus, dolorum aperiam accusamus! Maiores aliquam nisi rem similique eligendi dolorum, possimus sunt quo esse ullam consectetur accusantium labore facere eos saepe laborum reprehenderit doloribus fugiat officiis eaque. Rem quaerat earum, suscipit ratione fuga culpa eum nemo, quidem et veritatis odit?</p>
+					</div>
 				</div>
 			</section>
 			<?php include('page-parts/have-a-questions.inc.php') ?>

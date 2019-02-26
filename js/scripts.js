@@ -7,6 +7,9 @@ $(document).ready(function(){
 		menuWidth: '260px'
 	});
 
+	// WOW animations
+	new WOW().init();
+
 	$('.panel-close').click(function(){
 		$('.menu-opener').click();
 	});

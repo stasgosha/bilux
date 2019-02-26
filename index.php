@@ -8,31 +8,31 @@
 				</div>
 				<div class="big-product-features">
 					<div class="pruduct-features left">
-						<div class="item">
+						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
 							<div class="item-icon">
 								<i class="icon-diamond"></i>
 							</div>
 							<div class="item-text">Изысканный <br>дизайн</div>
 						</div>
-						<div class="item">
+						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
 							<div class="item-icon">
 								<i class="icon-shield"></i>
 							</div>
 							<div class="item-text">Гарантия 10 лет на <br>все изделия Bilux</div>
 						</div>
 					</div>
-					<div class="product-image">
+					<div class="product-image wow fadeInUp" data-wow-delay="0.3s">
 						<img src="img/tmp/first-screen-radiator.png" class="d-none d-md-block" alt="">
 						<img src="img/tmp/first-screen-radiator-mobile.png" class="d-md-none" alt="">
 					</div>
 					<div class="pruduct-features right">
-						<div class="item">
+						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
 							<div class="item-icon">
 								<i class="icon-bimetal"></i>
 							</div>
 							<div class="item-text">100% <br>биметалл</div>
 						</div>
-						<div class="item">
+						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
 							<div class="item-icon">
 								<i class="icon-params"></i>
 							</div>

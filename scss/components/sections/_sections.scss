@@ -4,6 +4,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: calc(100% - 155px); // 100vh - header height
+	overflow: hidden;
 
 	@media screen and (max-width: 575px){
 		.section-caption{

@@ -23,7 +23,7 @@
 							<div class="part-card white-card">
 								<div class="card-image">
 									<img src="img/parts/part-1.png" alt="">
-									<span class="on-hover">Что входит?</span>
+									<!-- <span class="on-hover">Что входит?</span> -->
 								</div>
 								<a href="#" class="card-caption">Универсальный комплект для присоединения радиаторов D42 1x1/2"</a>
 							</div>
@@ -32,7 +32,7 @@
 							<div class="part-card white-card">
 								<div class="card-image">
 									<img src="img/parts/part-1.png" alt="">
-									<span class="on-hover">Что входит?</span>
+									<!-- <span class="on-hover">Что входит?</span> -->
 								</div>
 								<a href="#" class="card-caption">Универсальный комплект для присоединения радиаторов D42 1x1/2"</a>
 							</div>
@@ -41,7 +41,7 @@
 							<div class="part-card white-card">
 								<div class="card-image">
 									<img src="img/parts/part-3.png" alt="">
-									<span class="on-hover">Что входит?</span>
+									<!-- <span class="on-hover">Что входит?</span> -->
 								</div>
 								<a href="#" class="card-caption">Переходник D42 1x1/2” белый левый (под силикон)</a>
 							</div>
@@ -50,7 +50,7 @@
 							<div class="part-card white-card">
 								<div class="card-image">
 									<img src="img/parts/part-4.png" alt="">
-									<span class="on-hover">Что входит?</span>
+									<!-- <span class="on-hover">Что входит?</span> -->
 								</div>
 								<a href="#" class="card-caption">Переходник D42 1x1/2” белый левый (под силикон)</a>
 							</div>
@@ -59,7 +59,7 @@
 							<div class="part-card white-card">
 								<div class="card-image">
 									<img src="img/parts/part-5.png" alt="">
-									<span class="on-hover">Что входит?</span>
+									<!-- <span class="on-hover">Что входит?</span> -->
 								</div>
 								<a href="#" class="card-caption">Переходник D42 1x1/2” белый левый (под силикон)</a>
 							</div>
@@ -68,7 +68,7 @@
 							<div class="part-card white-card">
 								<div class="card-image">
 									<img src="img/parts/part-6.png" alt="">
-									<span class="on-hover">Что входит?</span>
+									<!-- <span class="on-hover">Что входит?</span> -->
 								</div>
 								<a href="#" class="card-caption">Переходник D42 1x1/2” белый левый (под силикон)</a>
 							</div>
