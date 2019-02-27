@@ -52,6 +52,12 @@ $(document).ready(function(){
 
 	jcf.replace( $('.select-field select') );
 
+	// Parallax
+	$('[id*="parallax-viewport"]').each(function(){
+		var scene = document.getElementById( $(this).attr('id') );
+		var parallaxInstance = new Parallax(scene);
+	});
+
 	// Tabs
 	$("[data-tab]").click(function(e){
 		e.preventDefault();

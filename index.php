@@ -8,17 +8,25 @@
 				</div>
 				<div class="big-product-features">
 					<div class="pruduct-features left">
-						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
-							<div class="item-icon">
-								<i class="icon-diamond"></i>
+						<div class="item-wrapper" id="parallax-viewport-icon-1" data-friction-x="0.3" data-friction-y="0.05" data-scalar-y="10">
+							<div class="parallax-layer" data-depth="0.3">
+								<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
+									<div class="item-icon">
+										<i class="icon-diamond"></i>
+									</div>
+									<div class="item-text">Изысканный <br>дизайн</div>
+								</div>
 							</div>
-							<div class="item-text">Изысканный <br>дизайн</div>
 						</div>
-						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
-							<div class="item-icon">
-								<i class="icon-shield"></i>
+						<div class="item-wrapper" id="parallax-viewport-icon-2" data-friction-x="0.05" data-friction-y="0.2" data-scalar-y="3">
+							<div class="parallax-layer" data-depth="0.3">
+								<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
+									<div class="item-icon">
+										<i class="icon-shield"></i>
+									</div>
+									<div class="item-text">Гарантия 10 лет на <br>все изделия Bilux</div>
+								</div>
 							</div>
-							<div class="item-text">Гарантия 10 лет на <br>все изделия Bilux</div>
 						</div>
 					</div>
 					<div class="product-image wow fadeInUp" data-wow-delay="0.3s">
@@ -26,17 +34,25 @@
 						<img src="img/tmp/first-screen-radiator-mobile.png" class="d-md-none" alt="">
 					</div>
 					<div class="pruduct-features right">
-						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
-							<div class="item-icon">
-								<i class="icon-bimetal"></i>
+						<div class="item-wrapper" id="parallax-viewport-icon-3" data-friction-x="0.05" data-friction-y="0.2" data-scalar-y="10">
+							<div class="parallax-layer" data-depth="0.35">
+								<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
+									<div class="item-icon">
+										<i class="icon-bimetal"></i>
+									</div>
+									<div class="item-text">100% <br>биметалл</div>
+								</div>
 							</div>
-							<div class="item-text">100% <br>биметалл</div>
 						</div>
-						<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
-							<div class="item-icon">
-								<i class="icon-params"></i>
+						<div class="item-wrapper" id="parallax-viewport-icon-4" data-friction-x="0.1" data-friction-y="0.05" data-scalar-y="8">
+							<div class="parallax-layer" data-depth="0.4">
+								<div class="item wow fadeInUp" data-wow-delay="<?= rand(0, 5) / 10 ?>s">
+									<div class="item-icon">
+										<i class="icon-params"></i>
+									</div>
+									<div class="item-text">Высокие <span class="d-none d-sm-inline">эксплуатационные</span> <br>характеристики</div>
+								</div>
 							</div>
-							<div class="item-text">Высокие <span class="d-none d-sm-inline">эксплуатационные</span> <br>характеристики</div>
 						</div>
 					</div>
 				</div>

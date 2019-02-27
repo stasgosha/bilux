@@ -18,8 +18,11 @@
 		position: relative;
 		z-index: 3;
 
-		> .item{
+		.item-wrapper{
 			margin-bottom: 120px;
+		}
+
+		.item{
 			display: flex;
 			align-items: center;
 
@@ -83,7 +86,7 @@
 		}
 
 		&.left{
-			> .item{
+			.item{
 				.item-text{
 					&:before{
 						left: -4px;
@@ -100,7 +103,7 @@
 		}
 
 		&.right{
-			> .item{
+			.item{
 				flex-direction: row-reverse;
 
 				.item-icon{
@@ -142,8 +145,11 @@
 			margin-right: -15px;
 			margin-bottom: -50px;
 
-			> .item{
+			.item{
 				padding: 0 15px;
+			}
+
+			.item-wrapper{
 				margin-bottom: 50px;
 			}
 		}
@@ -161,7 +167,7 @@
 		}
 
 		.pruduct-features{
-			> .item{
+			.item{
 				flex-direction: column !important;
 				align-items: center;
 
@@ -186,7 +192,7 @@
 	@media screen and (max-width: 575px){
 
 		.pruduct-features{
-			> .item{
+			.item{
 				flex-direction: column !important;
 				align-items: center;
 
